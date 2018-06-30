@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<meta charset="UTF-8">
+	<title>Site</title>
+	<script> 
+	function t1(){
+	var p = document.getElementById("t");
+	p.innerHTML+=" Hi";
+	
+	}
+	
+	function t2(){
+	var p = document.getElementById("t");
+	p.insertAdjacentHTML("afterBegin"," Hi");
+	
+	}
+	</script>
+ </head>
+
+ <body> 
+     <h1>JavaScript</h1>
+<p id="t"> Тестовый текст:</p>
+<hr>
+<button onclick="t1()">Push</button>
+<button onclick="t2()">Push2</button>
+ </body
+</html>
